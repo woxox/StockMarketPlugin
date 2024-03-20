@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  minecraft-server:
+    image: itzg/minecraft-server:latest
+    ports:
+      - 25565:25565
+      - 25575:25575
+      - 8123:8123
+    environment:
+      MEMORY: "8G"
+      VERSION: "1.20.4"
+      TYPE: "PAPER"
+      # FORGE_VERSION: "47.2.17"
+      EULA: "TRUE"
+      MOTD: "§l§4김용진들의 쉼터§r"
+      # ENABLE_WHITELIST: true
+      ICON: "https://avatars.githubusercontent.com/u/46806498?s=400&u=1355d53e74bd276d3211fdf80c8a00d03d0de8cf&v=4"
+      # SPIGET_RESOURCES: "60383"
+    volumes:
+      - ./minecraft:/data
+    tty: true
+    stdin_open: true
