@@ -11,3 +11,6 @@ commands:
   test2:
     description: 테스트 명령어 22
     usage: /test2
+  stock:
+    description: 주식 리스트
+    usage: /stock

@@ -1,10 +1,9 @@
 package com.github.woxox.stockmarketplugin.ui;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
 import org.bukkit.inventory.ItemStack;
 
+import lombok.Getter;
+import lombok.Setter;
 
 @Getter
 @Setter
