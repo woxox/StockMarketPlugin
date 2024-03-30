@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/StockMarketPlugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/StockMarketPlugin.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.woxox.StockMarketPlugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.woxox.StockMarketPlugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/woxox.StockMarketPlugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/woxox.StockMarketPlugin.main.iml" />
     </modules>
   </component>
 </project>
