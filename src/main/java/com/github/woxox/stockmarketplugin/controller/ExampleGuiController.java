@@ -35,8 +35,8 @@ public class ExampleGuiController implements GuiController {
         ItemStack itemStack = e.getCurrentItem();
         if (itemStack == null || itemStack.getType().isAir()) return;
 
-        p.sendMessage(itemStack.getItemMeta().getDisplayName());
-//        p.performCommand("test2");
+        p.sendMessage(itemStack.getType().name());
+        p.performCommand("test2");
 //        p.sendMessage("example gui event");
     }
 }
