@@ -2,3 +2,5 @@
 build
 minecraft
 .idea
+.vscode
+bin
