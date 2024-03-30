@@ -1,2 +1,3 @@
 # StockMarketPlugin
 test
+test2
